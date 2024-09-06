@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<style name="Theme.MyArtService" parent="Theme.ArtService">
+    <item name="windowSplashScreenBackground">@color/black</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+    <item name="postSplashScreenTheme">@style/Theme.MyArtService</item>
+    <item name="windowSplashScreenAnimationDuration">200</item>
+</style>
+
+
+
+
+
+
+
+
 
     <style name="Theme.ArtService" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
